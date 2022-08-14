@@ -1,0 +1,14 @@
+game_name: FallGyus
+path_game: test_path
+region_captured: 
+  left: 0
+  top: 0
+  extensionOfX: 1400
+  extensionOfY: 700
+dummmy_direction: DOWN_KEY
+commands:
+ 
+  DOWN_KEY : 'Se baisser'
+  RIGHT_KEY : 'Avancer'
+  LEFT_KEY : 'Reculer'
+  A : 'Sauter'
