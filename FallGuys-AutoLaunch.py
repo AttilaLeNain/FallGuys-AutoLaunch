@@ -16,6 +16,11 @@ while 1:
 		print ("Démarrage du jeu!")
 		time.sleep(0.5)
 
+	if pyautogui.locateOnScreen(f'{main_path}\image\-Deco.png', confidence=0.9):
+		keyboard.press_and_release('space')
+		print ("Reconnexion!")
+		time.sleep(0.5)
+
 	if pyautogui.locateOnScreen(f'{main_path}\image\-Jouer.png', confidence=0.9):
 		keyboard.press_and_release('space')
 		print ("Lancement d'une partie")
